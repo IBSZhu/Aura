@@ -55,7 +55,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		);
 
 	GameplayTags.Attributes_Secondary_CriticalHitDamage = UGameplayTagsManager::Get().AddNativeGameplayTag(
-		FName("Attributes.Secondary.CriticalDamage"),
+		FName("Attributes.Secondary.CriticalHitDamage"),
 		FString("Bonus damage added when a critical hit is scored")
 		);
 
